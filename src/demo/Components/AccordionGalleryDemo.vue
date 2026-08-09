@@ -22,17 +22,17 @@
         <PreviewSlider title="Default Index" :min="0" :max="ITEMS.length - 1" :step="1" v-model="defaultIndex" />
         <PreviewSwitch title="Grayscale" v-model="grayscale" />
         <PreviewSwitch title="Show Labels" v-model="showLabels" />
-        <PreviewSelect title="Trigger" :options="['hover', 'click']" :value="trigger" />
+        <PreviewSelect title="Trigger" :options="['hover', 'click']" v-model="trigger" />
         <PreviewSelect
           title="Ease"
           :options="['power2.inOut', 'power3.out', 'power4.out', 'expo.out', 'back.out', 'sine.inOut']"
-          :value="ease"
+          v-model="ease"
         />
         <PreviewSlider title="Duration" :min="0.2" :max="1.2" :step="0.05" v-model="duration" valueUnit="s" />
         <PreviewSlider title="Parallax" :min="0" :max="1.5" :step="0.05" v-model="parallax" />
         <PreviewSlider title="Tilt" :min="0" :max="20" :step="1" v-model="tilt" valueUnit="°" />
         <PreviewSlider title="Stagger" :min="0" :max="0.15" :step="0.01" v-model="stagger" valueUnit="s" />
-        <PreviewSelect title="Orientation" :options="['horizontal', 'vertical']" :value="orientation" />
+        <PreviewSelect title="Orientation" :options="['horizontal', 'vertical']" v-model="orientation" />
         <PreviewSlider title="Height" :min="320" :max="560" :step="10" v-model="height" valueUnit="px" />
         <PreviewSlider title="Expand Ratio" :min="0.3" :max="0.8" :step="0.02" v-model="expandRatio" />
         <PreviewSlider title="Gap" :min="0" :max="30" :step="1" v-model="gap" valueUnit="px" />
