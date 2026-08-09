@@ -52,7 +52,7 @@
 <script setup lang="ts">
 import { computed, onUnmounted, ref, watch } from 'vue';
 
-type Option = { label: string; value: string };
+type Option = { label: string; value: string | number };
 
 const {
   title = '',
@@ -73,7 +73,7 @@ const normalized = computed<Option[]>(() => options.map(o => (typeof o === 'stri
 
 const current = computed(() => normalized.value.find(o => o.value === modelValue.value));
 
-function pick(v: string) {
+function pick(v: string | number) {
   modelValue.value = v;
   open.value = false;
 }
