@@ -151,10 +151,6 @@ void main() {
 }
 `;
 
-// OGL types `Program.uniforms` as `Record<string, any>` (see ogl/types/core/Program.d.ts) — it
-// can't know each shader's uniform shape ahead of time. We describe the exact shape of *our*
-// uniforms once here and cast into it at the one point a Program is constructed, so every other
-// read/write in this file is fully typed with no `any`.
 interface ScalarUniform {
   value: number;
 }
@@ -219,10 +215,6 @@ const props = withDefaults(defineProps<GradientWavesProps>(), {
 
 const containerRef = ref<HTMLDivElement | null>(null);
 
-// Mutable, non-reactive state — mirrors the React version's plain useRef
-// values that don't need to trigger re-renders. Unlike the React version,
-// there's no enableMouseRef mirror: props.mouseInteraction is always live
-// when read inside these closures.
 let program: MainUniforms | null = null;
 let teardown: (() => void) | null = null;
 

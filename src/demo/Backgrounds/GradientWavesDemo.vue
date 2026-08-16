@@ -11,7 +11,7 @@
     <template #preview>
       <div class="relative bg-[#14110e] rounded-2xl w-full h-125 overflow-hidden demo-container">
         <GradientWaves :key="key" v-bind="gradientWavesProps" />
-        <BackgroundContent pillText="New Background" headline="A luminous crystal corridor of stacked squares." />
+        <BackgroundContent pillText="New Background" headline="Soft rolling gradient waves fading into haze." />
       </div>
     </template>
 

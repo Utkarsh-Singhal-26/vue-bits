@@ -46,7 +46,7 @@
     </template>
 
     <template #code>
-      <DemoCodeTab slug="elasticMesh" :usage="elasticMesh.usage!" :source="elasticMeshSource" />
+      <DemoCodeTab slug="elastic-mesh" :usage="elasticMesh.usage!" :source="elasticMeshSource" />
     </template>
   </TabsLayout>
 </template>
