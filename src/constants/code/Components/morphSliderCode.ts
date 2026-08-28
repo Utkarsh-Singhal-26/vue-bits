@@ -12,6 +12,7 @@ const items = [
 ]
 </script>
 
+<template>
 <div :style="{ height: '500px', position: 'relative' }">
   <MorphSlider
     :items="items"
@@ -21,5 +22,6 @@ const items = [
     :drift="0.4"
     autoplay
   />
-</div>`
+</div>
+</template>`
 });

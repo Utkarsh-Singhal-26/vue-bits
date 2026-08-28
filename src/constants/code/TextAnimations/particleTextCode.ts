@@ -6,6 +6,7 @@ export const particleText = createCodeObject(code, 'TextAnimations/ParticleText'
 import ParticleText from './ParticleText.vue'
 </script>
 
+<template>
 <div :style="{ width: '100%', height: 360, background: '#09090f' }">
   <ParticleText
     text="Launch Faster"
@@ -25,5 +26,6 @@ import ParticleText from './ParticleText.vue'
     fontFamily="inherit"
     glow
   />
-</div>`
+</div>
+</template>`
 });

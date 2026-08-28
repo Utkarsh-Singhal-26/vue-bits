@@ -6,6 +6,7 @@ export const moltenMetal = createCodeObject(code, 'Backgrounds/MoltenMetal', {
 import MoltenMetal from './MoltenMetal.vue'
 </script>
 
+<template>
 <div :style="{ width: '100%', height: '600px', position: 'relative' }">
   <MoltenMetal
     color1="#5227FF"
@@ -27,5 +28,6 @@ import MoltenMetal from './MoltenMetal.vue'
     :mouseStrength="0.3"
     :opacity="1.0"
   />
-</div>`
+</div>
+</template>`
 });
