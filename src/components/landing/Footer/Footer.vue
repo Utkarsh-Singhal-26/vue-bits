@@ -69,8 +69,8 @@ onBeforeUnmount(() => io?.disconnect());
             React Bits
           </a>
           by
-          <a href="https://x.com/davidhdev" target="_blank" rel="noopener noreferrer" class="ln-footer-creator">
-            davidhdev
+          <a href="https://x.com/davidhaz" target="_blank" rel="noopener noreferrer" class="ln-footer-creator">
+            davidhaz
           </a>
         </p>
         <p class="ln-footer-copy">© {{ year }} Vue Bits</p>
