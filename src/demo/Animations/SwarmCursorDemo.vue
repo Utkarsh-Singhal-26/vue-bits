@@ -204,6 +204,6 @@ const props: PropRow[] = [
     description: 'Burst the swarm outward on click, then let it regroup.'
   },
   { name: 'enabled', type: 'boolean', default: 'true', description: 'Enable or disable the effect.' },
-  { name: 'children', type: 'React.ReactNode', default: '—', description: 'Content the swarm moves over.' }
+  { name: 'children', type: 'slot', default: '—', description: 'Content the swarm moves over.' }
 ];
 </script>
