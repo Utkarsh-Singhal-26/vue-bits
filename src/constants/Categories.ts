@@ -1,19 +1,32 @@
 // Highlighted sidebar items
 export const NEW = [
-  'Option Wheel',
-  'Model Viewer',
-  'Dot Field',
-  'Cursor Grid',
-  'Shape Grid',
-  'Strands',
-  'Side Rays',
-  'Ferrofluid',
-  'Specular Button',
-  'Lightfall',
-  'Plasma Wave',
-  'Line Sidebar',
-  'Curved Input',
-  'Plasma Wave'
+  'Accordion Gallery',
+  'Acid Squares',
+  'Depth Carousel',
+  'Depth Text',
+  'Drift Wall',
+  'Echo Text',
+  'Elastic Mesh',
+  'Fold Text',
+  'Gradient Waves',
+  'Halftone Reveal',
+  'Light Tunnel',
+  'Masked Heading',
+  'Molten Metal',
+  'Morph Slider',
+  'Particle Text',
+  'Ripple Distortion',
+  'Scroll Expand',
+  'Sliced Waves',
+  'Split Flap Text',
+  'Stroke Text',
+  'Swarm Cursor',
+  'Text Loop',
+  'Topography',
+  'Warp Text',
+  'Web Threads',
+  'CRT Warp',
+  'Glow Cursor'
 ];
 export const UPDATED = [];
 
@@ -26,6 +39,15 @@ export const CATEGORIES = [
   {
     name: 'Text Animations',
     subcategories: [
+      'Warp Text',
+      'Text Loop',
+      'Stroke Text',
+      'Split Flap Text',
+      'Particle Text',
+      'Masked Heading',
+      'Fold Text',
+      'Echo Text',
+      'Depth Text',
       'ASCII Text',
       'Blur Text',
       'Circular Text',
@@ -54,6 +76,12 @@ export const CATEGORIES = [
   {
     name: 'Animations',
     subcategories: [
+      'Glow Cursor',
+      'Swarm Cursor',
+      'Scroll Expand',
+      'Ripple Distortion',
+      'Halftone Reveal',
+      'Elastic Mesh',
       'Animated Content',
       'Antigravity',
       'Blob Cursor',
@@ -90,6 +118,10 @@ export const CATEGORIES = [
   {
     name: 'Components',
     subcategories: [
+      'Morph Slider',
+      'Drift Wall',
+      'Depth Carousel',
+      'Accordion Gallery',
       'Animated List',
       'Border Glow',
       'Bounce Cards',
@@ -133,6 +165,14 @@ export const CATEGORIES = [
   {
     name: 'Backgrounds',
     subcategories: [
+      'CRT Warp',
+      'Web Threads',
+      'Topography',
+      'Sliced Waves',
+      'Molten Metal',
+      'Light Tunnel',
+      'Gradient Waves',
+      'Acid Squares',
       'Aurora',
       'Balatro',
       'Ballpit',

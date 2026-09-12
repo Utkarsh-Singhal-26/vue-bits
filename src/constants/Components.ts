@@ -29,7 +29,13 @@ const animations = {
   'orbit-images': () => import('../demo/Animations/OrbitImagesDemo.vue'),
   'magic-rings': () => import('../demo/Animations/MagicRingsDemo.vue'),
   strands: () => import('../demo/Animations/StrandsDemo.vue'),
-  'cursor-grid': () => import('../demo/Animations/CursorGridDemo.vue')
+  'cursor-grid': () => import('../demo/Animations/CursorGridDemo.vue'),
+  'elastic-mesh': () => import('../demo/Animations/ElasticMeshDemo.vue'),
+  'halftone-reveal': () => import('../demo/Animations/HalftoneRevealDemo.vue'),
+  'ripple-distortion': () => import('../demo/Animations/RippleDistortionDemo.vue'),
+  'scroll-expand': () => import('../demo/Animations/ScrollExpandDemo.vue'),
+  'swarm-cursor': () => import('../demo/Animations/SwarmCursorDemo.vue'),
+  'glow-cursor': () => import('../demo/Animations/GlowCursorDemo.vue')
 };
 
 const textAnimations = {
@@ -55,7 +61,16 @@ const textAnimations = {
   'scroll-velocity': () => import('../demo/TextAnimations/ScrollVelocityDemo.vue'),
   'text-type': () => import('../demo/TextAnimations/TextTypeDemo.vue'),
   'variable-proximity': () => import('../demo/TextAnimations/VariableProximityDemo.vue'),
-  shuffle: () => import('../demo/TextAnimations/ShuffleDemo.vue')
+  shuffle: () => import('../demo/TextAnimations/ShuffleDemo.vue'),
+  'depth-text': () => import('../demo/TextAnimations/DepthTextDemo.vue'),
+  'echo-text': () => import('../demo/TextAnimations/EchoTextDemo.vue'),
+  'fold-text': () => import('../demo/TextAnimations/FoldTextDemo.vue'),
+  'masked-heading': () => import('../demo/TextAnimations/MaskedHeadingDemo.vue'),
+  'particle-text': () => import('../demo/TextAnimations/ParticleTextDemo.vue'),
+  'split-flap-text': () => import('../demo/TextAnimations/SplitFlapTextDemo.vue'),
+  'stroke-text': () => import('../demo/TextAnimations/StrokeTextDemo.vue'),
+  'text-loop': () => import('../demo/TextAnimations/TextLoopDemo.vue'),
+  'warp-text': () => import('../demo/TextAnimations/WarpTextDemo.vue')
 };
 
 const components = {
@@ -97,6 +112,10 @@ const components = {
   'border-glow': () => import('../demo/Components/BorderGlowDemo.vue'),
   'model-viewer': () => import('../demo/Components/ModelViewerDemo.vue'),
   'line-sidebar': () => import('../demo/Components/LineSidebarDemo.vue'),
+  'accordion-gallery': () => import('../demo/Components/AccordionGalleryDemo.vue'),
+  'depth-carousel': () => import('../demo/Components/DepthCarouselDemo.vue'),
+  'drift-wall': () => import('../demo/Components/DriftWallDemo.vue'),
+  'morph-slider': () => import('../demo/Components/MorphSliderDemo.vue')
 };
 
 const backgrounds = {
@@ -144,7 +163,15 @@ const backgrounds = {
   'side-rays': () => import('../demo/Backgrounds/SideRaysDemo.vue'),
   ferrofluid: () => import('../demo/Backgrounds/FerrofluidDemo.vue'),
   lightfall: () => import('../demo/Backgrounds/LightfallDemo.vue'),
-  'plasma-wave': () => import('../demo/Backgrounds/PlasmaWaveDemo.vue')
+  'plasma-wave': () => import('../demo/Backgrounds/PlasmaWaveDemo.vue'),
+  'acid-squares': () => import('../demo/Backgrounds/AcidSquaresDemo.vue'),
+  'gradient-waves': () => import('../demo/Backgrounds/GradientWavesDemo.vue'),
+  'light-tunnel': () => import('../demo/Backgrounds/LightTunnelDemo.vue'),
+  'molten-metal': () => import('../demo/Backgrounds/MoltenMetalDemo.vue'),
+  'sliced-waves': () => import('../demo/Backgrounds/SlicedWavesDemo.vue'),
+  topography: () => import('../demo/Backgrounds/TopographyDemo.vue'),
+  'web-threads': () => import('../demo/Backgrounds/WebThreadsDemo.vue'),
+  'crt-warp': () => import('../demo/Backgrounds/CRTWarpDemo.vue')
 };
 
 export const componentMap = {
