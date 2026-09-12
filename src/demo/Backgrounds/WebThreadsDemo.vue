@@ -11,7 +11,7 @@
     <template #preview>
       <div class="relative bg-[#14110e] rounded-2xl w-full h-125 overflow-hidden demo-container">
         <WebThreads :key="key" v-bind="webThreadsProps" />
-        <BackgroundContent pillText="New Background" headline="A living topographic contour map." />
+        <BackgroundContent pillText="New Background" headline="Luminous threads woven to a glowing pinch." />
       </div>
     </template>
 
