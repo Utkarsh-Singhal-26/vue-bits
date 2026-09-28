@@ -1,5 +1,8 @@
 // Highlighted sidebar items
 export const NEW = [
+  'Electric Logo',
+  'Micro Slats',
+  'Flex Carousel',
   'Tech Text',
   'Dither Veil',
   'Shredder',
@@ -106,6 +109,7 @@ export const CATEGORIES = [
   {
     name: 'Animations',
     subcategories: [
+      'Electric Logo',
       'Dither Veil',
       'Pixel Swap',
       'Glow Cursor',
@@ -189,6 +193,7 @@ export const CATEGORIES = [
   {
     name: 'Components',
     subcategories: [
+      'Flex Carousel',
       'Infinite Spiral',
       'Morph Slider',
       'Drift Wall',
@@ -237,6 +242,7 @@ export const CATEGORIES = [
   {
     name: 'Backgrounds',
     subcategories: [
+      'Micro Slats',
       'Scanner',
       'Shape Waves',
       'Ghost Fibers',

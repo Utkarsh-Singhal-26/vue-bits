@@ -37,7 +37,8 @@ const animations = {
   'swarm-cursor': () => import('../demo/Animations/SwarmCursorDemo.vue'),
   'glow-cursor': () => import('../demo/Animations/GlowCursorDemo.vue'),
   'pixel-swap': () => import('../demo/Animations/PixelSwapDemo.vue'),
-  'dither-veil': () => import('../demo/Animations/DitherVeilDemo.vue')
+  'dither-veil': () => import('../demo/Animations/DitherVeilDemo.vue'),
+  'electric-logo': () => import('../demo/Animations/ElectricLogoDemo.vue')
 };
 
 const textAnimations = {
@@ -119,7 +120,8 @@ const components = {
   'depth-carousel': () => import('../demo/Components/DepthCarouselDemo.vue'),
   'drift-wall': () => import('../demo/Components/DriftWallDemo.vue'),
   'morph-slider': () => import('../demo/Components/MorphSliderDemo.vue'),
-  'infinite-spiral': () => import('../demo/Components/InfiniteSpiralDemo.vue')
+  'infinite-spiral': () => import('../demo/Components/InfiniteSpiralDemo.vue'),
+  'flex-carousel': () => import('../demo/Components/FlexCarouselDemo.vue')
 };
 
 const backgrounds = {
@@ -179,7 +181,8 @@ const backgrounds = {
   scanner: () => import('../demo/Backgrounds/ScannerDemo.vue'),
   'aero-shards': () => import('../demo/Backgrounds/AeroShardsDemo.vue'),
   'ghost-fibers': () => import('../demo/Backgrounds/GhostFibersDemo.vue'),
-  'shape-waves': () => import('../demo/Backgrounds/ShapeWavesDemo.vue')
+  'shape-waves': () => import('../demo/Backgrounds/ShapeWavesDemo.vue'),
+  'micro-slats': () => import('../demo/Backgrounds/MicroSlatsDemo.vue')
 };
 
 const micro = {

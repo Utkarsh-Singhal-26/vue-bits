@@ -95,6 +95,15 @@ export const componentMetadata: ComponentMetadata = {
     docsUrl: 'https://vue-bits.dev/animations/electric-border',
     tags: []
   },
+  'Animations/ElectricLogo': {
+    videoUrl: '/assets/videos/electriclogo.webm',
+    description:
+      'Turns any SVG or PNG into a living lightning outline, with flowing strands, arcs that leap off the edges and a charge that follows the cursor.',
+    category: 'Animations',
+    name: 'ElectricLogo',
+    docsUrl: 'https://vue-bits.dev/animations/electric-logo',
+    tags: []
+  },
   'Animations/FadeContent': {
     videoUrl: '/assets/videos/fadecontent.webm',
     description: 'Simple directional fade / slide entrance / exit wrapper with threshold-based activation.',
@@ -743,6 +752,15 @@ export const componentMetadata: ComponentMetadata = {
     docsUrl: 'https://vue-bits.dev/components/elastic-slider',
     tags: []
   },
+  'Components/FlexCarousel': {
+    videoUrl: '/assets/videos/flexcarousel.webm',
+    description:
+      'An infinite image row that flows through invisible liquid glass at its edges, with four bend presets, five entrances, a speed squeeze and click to focus.',
+    category: 'Components',
+    name: 'FlexCarousel',
+    docsUrl: 'https://vue-bits.dev/components/flex-carousel',
+    tags: []
+  },
   'Components/FlowingMenu': {
     videoUrl: '/assets/videos/flowingmenu.webm',
     description: 'Liquid flowing active indicator glides between menu items.',
@@ -1227,6 +1245,15 @@ export const componentMetadata: ComponentMetadata = {
     name: 'LiquidEther',
     docsUrl: 'https://vue-bits.dev/backgrounds/liquid-ether',
     tags: []
+  },
+  'Backgrounds/MicroSlats': {
+    videoUrl: '/assets/videos/microslats.webm',
+    description:
+      'A wall of tiny slats that becomes a rolling sea in perspective, with glinting crests, four presets, a real fluid the cursor stirs and an intro that rolls in from the horizon.',
+    category: 'Backgrounds',
+    name: 'MicroSlats',
+    docsUrl: 'https://vue-bits.dev/backgrounds/micro-slats',
+    tags: ['webgl', 'ogl', 'grid', 'waves', 'interactive', 'procedural']
   },
   'Backgrounds/MoltenMetal': {
     videoUrl: '/assets/videos/moltenmetal.webm',
